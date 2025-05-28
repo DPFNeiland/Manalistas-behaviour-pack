@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "teste:xicra"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xicra",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "teste_xicra",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

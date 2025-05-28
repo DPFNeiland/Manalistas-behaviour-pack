@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "teste:xicaranova"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xicaranova",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "teste_xicaranova",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

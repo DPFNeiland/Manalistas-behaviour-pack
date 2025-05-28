@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "teste:triocartinhas"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.triocartinhas",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "teste_triocartinhas",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

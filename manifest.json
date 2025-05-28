@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"teste"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.46"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "teste",
+		"description": "teste123 sdvbhdbsv",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "f4cb5e8a-b7f5-430a-b5c8-4425b842e234",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "edec1d9b-3532-4911-a8f8-79577ab83c08",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "b35ca919-bcdb-4f03-86dd-8ad5c2ee20cc",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "019f4b0e-aa7e-4f5c-a325-accb32b21a34",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "teste:bule"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.bule",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "teste_bule",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

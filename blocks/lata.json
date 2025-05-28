@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "teste:lata"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.lata",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "teste_lata",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}
